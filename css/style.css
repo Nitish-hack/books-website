@@ -1,0 +1,188 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* width: 100vw; */
+}
+/* upper section  */
+.upperpart{
+    /* width: 50%; */
+    height: 60vh;
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 50px 0px 50px;
+    /* margin: 60px 29px; */ 
+    color: white;
+
+}
+.upperpart::before{
+    content: "";
+    position: absolute;
+    background: url('../images/bg1.jpg') no-repeat center center/cover;
+    height: 63vh;
+    width: 100%;
+    top:0px;
+    left:0px;
+
+    z-index: -1;
+    /* opacity:0.89; */
+}
+.upperpart h1{
+
+   font-size: 5rem;
+  
+}
+.upperpart p{
+    margin-bottom: 0;
+    text-align: center;
+    /* font-size: 1rem; */
+}
+.upperpart a{
+    margin-top: 15px;
+    font-size: 2rem;
+    /* border-radius: 10px; */
+}
+
+
+  .feature-title {
+    font-size: 1.5rem;
+    /* text-align: center; */
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+    /* text-align: center; */
+  }
+  
+  
+
+
+.feature-icon{
+    font-size: 3rem;
+}
+
+/* trending */
+.title-image{
+    width: 100%; 
+}
+.title-card{
+    padding: 10px 10px;
+}
+.trending-image{
+    width: 200px;
+}
+.trending{
+    padding: 50px 100px;
+
+}
+.trending-books-card{
+    margin-top: 10px;
+   
+}
+.trending-content{
+    margin-left: 40px;
+}
+
+
+
+.testimonial-text {
+    font-size: 1.5rem;
+    text-align: center;
+    /* line-height: 1.5; */
+  }
+  
+  .testimonial-image {
+    width: 10%;
+display: block;
+    margin: 10px auto;
+  }
+
+.testimonial-heading{
+text-align: center;
+font-size: 5rem;
+padding: 40px;
+}
+
+
+  #testimonials
+{
+    background-color: bisque;
+    padding: 20px 140px ;
+}
+.carousel-item{
+padding: 0px 100px;
+}
+
+
+
+#footer{
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+  }
+
+
+  /*countdown box  */
+  
+ .salebox{
+  background: url("../images/timer.jpg")  no-repeat center center/cover;
+}
+#timer{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 400px;
+}
+.blocks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  width: 17%;
+  height: 49%;
+  background-color: rgb(169, 203, 232);
+  color: black;
+  margin-right: 10px;
+}
+.saleboxTitle{
+  color: white;
+}
+.saleboxTitle h1{
+  font-size: 5rem;
+  margin-left: 10px;
+}
+
+
+
+.add-btn{
+  font-size:18px;
+margin-left: 7px;
+
+
+}
+.sub-btn{
+  font-size: 20px;
+margin-right: 7px;
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1000px)  {
+    .upperpart h1{
+        font-size: 65px;
+        text-align: center;
+     }
+     .upperpart button{
+       font-size: 1rem;
+     }
+}

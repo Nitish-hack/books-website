@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookBazar:Book buying website</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg " style="background-color: #bcacac;">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#">Navbar</a>
+      <form class="d-flex ms-5 " role="search" style="width: 50%;">
+        <input class="form-control me-2" type="search" placeholder="Search for Books" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">collections</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-secondary" id="cart-page" href="cart.html" role="button">🛒cart:0</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="upperpart ">
+    <h1 class="headings ">Welcome to BookBazar </h1>
+    <p>buy books at best prizes,best authors Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quidem
+      accusamus sit quam?</p>
+    <p> Porro, enim? Quam, exercitationem tempore corporis autem at quaerat nam blanditiis esse obcaecati veritatis
+      dolor nisi Porro, enim? Quam, exercitationem tempore corporis autem at quaerat nam blanditiis esse. </p>
+    <a class="btn btn-light" href="#books" role="button">start shopping</a>
+  </div>
+
+  <section class="white-section" id="features" ">
+
+    <div class=" container-fluid">
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="bi bi-truck feature-icon"></i>
+        <h3 class="feature-title">free shipping.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Architecto, distinctio!.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="bi bi-clock feature-icon"></i>
+        <h3 class="feature-title">Open 24/7</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Cumque, praesentium? </p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="bi bi-credit-card feature-icon"></i>
+        <h3 class="feature-title">online payment</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Tempore, temporibus?</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+<div class="salebox row">
+  <div class="saleboxTitle col-lg-3">
+   <h1>50% OFF</h1>
+   <h1>ON</h1>
+   <h1>ALL BOOKS</h1>
+
+  </div>
+ <div id="timer" class="col-lg-9">
+<div class="blocks" id="s"></div>
+<div class="blocks" id="m"></div>
+<div class="blocks" id="h"></div>
+<div class="blocks" id="d"></div>
+</div>
+</div>
+
+  <div class="row trending " id="books" style="width: 99vw;">
+    <h1 style="text-align:center; font-size: 5rem;"> TRENDING BOOKS </h1>
+    <div class="col-lg-4">
+      <div class="title-card">
+        <img src="images/book-0.png" class="title-image " alt="...">
+        <div class="card-content">
+          <h3>$5</h3>
+          <h5>RUCKSACK</h5>
+          <button class="cart-btn btn btn-outline-secondary" id="item0">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg-8">
+      <div class="row trending-books">
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <section id="testimonials">
+    <h1 class="testimonial-heading"> What Our Authors Say</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <img src="images/nitish.png" class="testimonial-image d-block " alt="...">
+          <p class="testimonial-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repudiandae nam
+            consectetur praesentium maiores labore ab rem nesciunt alias reiciendis magnam quisquam voluptatum, pariatur
+            quaerat, aperiam non distinctio officiis similique enim natus laborum vel adipisci quas quibusdam?
+            Reprehenderit, inventore repellat?</p>
+        </div>
+        <div class="carousel-item active container-fluid">
+          <img src="images/pratham.png" class=" testimonial-image" alt="...">
+          <p class="testimonial-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repudiandae nam
+            consectetur praesentium maiores labore ab rem nesciunt alias reiciendis magnam quisquam voluptatum, pariatur
+            quaerat, aperiam non distinctio officiis similique enim natus laborum vel adipisci quas quibusdam?
+            Reprehenderit, inventore repellat?</p>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img src="images/vaibhav-modified.png" class="testimonial-image" alt="...">
+          <p class="testimonial-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repudiandae nam
+            consectetur praesentium maiores labore ab rem nesciunt alias reiciendis magnam quisquam voluptatum, pariatur
+            quaerat, aperiam non distinctio officiis similique enim natus laborum vel adipisci quas quibusdam?
+            Reprehenderit, inventore repellat?</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2018 TinDog</p>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="brain .js"></script>
+</body>
+
+</html>
